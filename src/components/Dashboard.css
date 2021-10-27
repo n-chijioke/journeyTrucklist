@@ -1,23 +1,24 @@
 .dashboard__container {
     flex: 0.8;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     top: 0;
     left: 0;
     right: 0;
     background-color: whitesmoke;
     justify-content: center;
     align-items: flex-start;
-    max-width: 100%;
-    flex-direction: column;
-    align-content: center;
+    width: 100%;
+    /* flex-direction: row; */
+    align-content: space-between;
 }
 
 .dashboard__cards {
     display: flex;
-    align-items: center;
+    align-items: c;
     justify-content: space-between;
-    width: 100%; 
+    height: 130px;
+    width: 100%;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
@@ -29,17 +30,20 @@
     display: flex;
     border-radius: 10px;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 15px;
-    margin-top: 20px;
-    /* border-spacing: 5px; */
+    /* margin-top: 20px; */
+    margin-left: 5px;
     background-color: white;
-    /* flex-direction: row; */
+    height: 130px;
+    width: 360px;
+    
+
 
 }
 
 .cards:hover {
-    background-color: mediumvioletred;
+    background-color:  #8526B1 ;
     cursor: pointer;
 }
 
@@ -48,7 +52,7 @@
      justify-content: center;
      align-items: flex-start;
      color: blue;
-     /* margin: 15px; */
+     margin-left: 15px;
      margin-bottom: 10px;
 
  }
@@ -59,6 +63,7 @@
      align-items: flex-end;
      justify-content: space-between;
      margin-top: 50px;
+     margin-right: 20px;
 
  }
 

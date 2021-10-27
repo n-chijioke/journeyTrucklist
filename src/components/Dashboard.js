@@ -2,6 +2,7 @@ import React from 'react'
 import "./Dashboard.css";
 import Group from "../components/images/Group.png";
 import Group2 from "../components/images/Group2.png";
+import SearchIcon from '@material-ui/icons/Search';
 
 
 function Dashboard() {
@@ -19,7 +20,7 @@ function Dashboard() {
                         <div className="cards">
                             <h1 className="h1">428</h1>
                             <h2 className="h2">Sabotage</h2>
-                            <img className="img" src={Group} alt=" "/>
+                            <img className="img" src={Group2} alt=" "/>
                         </div>
                         <div className="cards">
                             <h1  className="h1">02</h1>
@@ -29,10 +30,9 @@ function Dashboard() {
 
                     <hr/>
 
-                </div>
-                <div className="journey__list">
-                            
-                </div>
+                </div> 
+                
+                
         </div>
     );
 }

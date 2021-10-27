@@ -4,13 +4,14 @@ import  AvatarIcon  from "@material-ui/core/Avatar";
 import  SearchIcon  from '@material-ui/icons/Search';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import logo from "../components/images/logo.jpg";
 
 function Header() {
     return (
         <div className="header">
             <div className="header__left">
                 <div className="header__logo" link to='/'>
-                        Claritae
+                       <img className="img" src={logo} alt=""/>
                 </div>
             </div>
             <div className="header__right">

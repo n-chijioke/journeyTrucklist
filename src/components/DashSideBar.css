@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: darkblue;
+    background: #192369;
     flex-direction: column; 
-    color: white;
+    color: #FFFFFF;
     max-width: 100%;
 }
 

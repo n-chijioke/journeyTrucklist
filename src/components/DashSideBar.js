@@ -1,6 +1,6 @@
 import React from 'react';
 import"./DashSideBar.css";
-import MessageIcon from '@material-ui/icons/Message';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import DashboardTwoToneIcon from '@material-ui/icons/DashboardTwoTone';
 import SideBarRow from "./SideBarRow";
 import ScheduleIcon from '@material-ui/icons/Schedule';
@@ -12,7 +12,7 @@ function DashSidebar ()  {
     return (
         <div className="sidebar">
            <SideBarRow selected Icon={DashboardTwoToneIcon}  title="Dashboard"  />
-            <SideBarRow Icon={MessageIcon} title="Message" />
+            <SideBarRow Icon={MailOutlineIcon} title="Message" />
             <SideBarRow Icon={ScheduleIcon} title="Schedule" />
             <SideBarRow Icon={HistoryIcon} title="History" />
             <SideBarRow Icon={SettingsIcon} title="Setting" /> 

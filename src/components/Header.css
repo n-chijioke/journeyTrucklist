@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
+    width: 100%;
     position: sticky;
     top: 0;
 }
@@ -10,8 +10,8 @@
 .header__left {
     flex: 0.2;
     display: flex;
-    background-color: darkblue;
     position: sticky;
+    background: #192369;
     align-items: center;
     justify-content: center;    
     
@@ -24,13 +24,22 @@
     align-items: center;
     display: flex;
     color: white;
+    width: 139px;
     top: 0;
     height: 90px;
     justify-content: center;
 }
 
+.img {
+    background-color: #192369;
+    border-radius: 4px;
+    width: 200px;
+    
+}
+
  .header__right {
      flex: 0.8;
+     width: 260px;
      display: flex;
      align-items: center;
      justify-content: space-between;

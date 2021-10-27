@@ -19,6 +19,6 @@
 }
 
 .sidebarRow:hover {
-    background-color: mediumvioletred;
+    background: #FFFFFF;
     cursor: pointer;
 }
