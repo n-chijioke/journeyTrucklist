@@ -1,24 +1,31 @@
 .sidebarRow {
     display: flex;
     align-items: center;
-    padding: 20px 20px;
-    width: 100%;
+    padding: 20px;
+    max-width: 100%;
+    height: 60px;
     justify-content: center;
+    margin: 10px;
 }
 
 .sidebarRow__icon {
-    font-size: large !important;
+    font-size: larger !important;
 }
 
 .sidebarRow__title {
     flex: 0.2;
     margin-left: 10px;
-    margin-right: 33px;
+    margin-right: 10px;
     font-size: 15px;
     font-weight: 500;
+    max-width: 100%;
 }
 
 .sidebarRow:hover {
     background: #FFFFFF;
     cursor: pointer;
+    color: black;
+    border-radius: 25px;
+    padding: 2px;
+    width: 165px;
 }
